@@ -1,7 +1,6 @@
-import React from 'react';
-import Calander from './Calander';
-import CompletedTask from './CompletedTask';
-import ToDo from './ToDo';
+import React, { useState } from 'react';
+
+import data from "../../data.json";
 
 const Home = () => {
     return (
