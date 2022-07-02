@@ -21,7 +21,7 @@ const ToDo = () => {
         if (event.key === "Enter") {
             event.preventDefault();
             const task = event.target.value;
-            event.currentTarget.value = "";
+            event.target.value = "";
             console.log(task);
             const addTask = { task }
             fetch(`http://localhost:5000/addTask`, {

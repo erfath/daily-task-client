@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import myPic from '../../images/DSC_2761-removebg-preview.png'
 const About = () => {
     return (

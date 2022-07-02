@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Pages/Navbar/Navbar';
 import { Routes, Route } from 'react-router-dom';
-import CompletedTask from './Pages/Home/CompletedTask';
 import ToDo from './Pages/Home/ToDo';
 import Calander from './Pages/Home/Calander';
-import Home from './Pages/Home/Home';
 import Footer from './Pages/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
 import CompletedTasksUi from './Pages/Home/CompletedTasksUi';

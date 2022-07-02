@@ -13,7 +13,7 @@ const CompletedTasksUi = () => {
     }, []);
     return (
         <div>
-            <h2 className='text-3xl font-semibold text-center p-2 m-2 text-purple-600'>All Of My Completed Tasks</h2>
+            <h2 className='text-3xl font-semibold text-center p-2 m-2 text-purple-600 font-serif'>All Of My Completed Tasks</h2>
             <div className='flex justify-center'>
                 <div class="flex w-52 lg:w-fit flex-col">
                     <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
