@@ -6,7 +6,7 @@ import CompletedTask from './CompletedTask';
 const ToDo = () => {
     const [completedTasks, setCompletedTasks] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/addTask`, {
+        fetch(`https://bagged-worms-40938.herokuapp.com/addTask`, {
             method: 'GET'
         })
             .then(res => res.json())
@@ -24,7 +24,7 @@ const ToDo = () => {
             event.target.value = "";
             console.log(task);
             const addTask = { task }
-            fetch(`http://localhost:5000/addTask`, {
+            fetch(`https://bagged-worms-40938.herokuapp.com/addTask`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

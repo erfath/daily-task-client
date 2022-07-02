@@ -9,7 +9,7 @@ const CompletedTask = ({ completedTask }) => {
             id: id
         }
 
-        fetch(`http://localhost:5000/complete`, {
+        fetch(`https://bagged-worms-40938.herokuapp.com/complete`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -21,7 +21,7 @@ const CompletedTask = ({ completedTask }) => {
                 console.log(data)
             })
 
-        fetch(`http://localhost:5000/addTask/${id}`, {
+        fetch(`https://bagged-worms-40938.herokuapp.com/addTask/${id}`, {
             method: 'DELETE'
         })
 

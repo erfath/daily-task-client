@@ -4,7 +4,7 @@ import CompletedTaskTable from './Contact';
 const CompletedTasksUi = () => {
     const [allCompletedTasks, setAllCompletedTask] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/completedTask')
+        fetch('https://bagged-worms-40938.herokuapp.com/completedTask')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
