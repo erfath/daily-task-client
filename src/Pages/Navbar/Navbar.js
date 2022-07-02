@@ -21,7 +21,7 @@ const Navbar = () => {
                         <img src={logo} style={{width: '40px'}} alt=""
                             loading="lazy" /> <p className='text-4xl ml-2 font-bold text-black'>Task <span className='text-green-600 text-3xl font-bold'>Manager</span> </p>
                     </a>
-                    <ul class="navbar-nav flex flex-col lg:ml-72 pl-0 list-style-none mr-auto">
+                    <ul class="navbar-nav flex flex-col lg:ml-52 pl-0 list-style-none mr-auto">
                         <li class="nav-item p-2">
                             <Link to='todo' class="nav-link font-semibold text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >To-Do</Link>
                         </li>
